@@ -1,0 +1,23 @@
+.container {
+  margin: 10px;
+}
+
+.label {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.dropdown {
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.dropdown:focus {
+  border-color: #4caf50;
+  background-color: #e6f9e6;
+  outline: none;
+}
